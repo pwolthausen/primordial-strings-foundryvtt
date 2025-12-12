@@ -1,0 +1,92 @@
+{
+  "id": "cult-of-the-night-queen",
+  "title": "Cult of the Night Queen",
+  "description": "<p>Module including all the necessary resources to run the Cult of the Night Queen campaign</p>",
+  "version": "1.0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "packFolders": [
+    {
+      "name": "Cult of the Night Queen",
+      "sorting": "a",
+      "packs": [
+        "scenes",
+        "items",
+        "witch",
+        "world-building",
+        "npcs",
+        "spells",
+        "story"
+      ],
+      "color": null,
+      "folders": []
+    }
+  ],
+  "packs": [
+    {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "world-building",
+      "label": "World Building",
+      "path": "packs/world-building",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "npcs",
+      "label": "NPCs",
+      "path": "packs/npcs",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "story",
+      "label": "Story",
+      "path": "packs/story",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Aahzymandius",
+      "flags": {}
+    }
+  ],
+  "flags": {},
+  "url": "https://github.com/pwolthausen/primordial-strings-foundryvtt",
+  "manifest": "https://raw.githubusercontent.com/pwolthausen/primordial-strings-foundryvtt/refs/heads/main/module.json",
+  "download": "https://raw.githubusercontent.com/pwolthausen/primordial-strings-foundryvtt/refs/heads/main/module.zip"
+}
