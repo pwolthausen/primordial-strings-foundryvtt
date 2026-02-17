@@ -2,7 +2,7 @@
   "id": "primordial-strings",
   "title": "The Primordial Strings",
   "description": "<p>Module including all the necessary resources to run the Cult of the Night Queen, Puppets of Fate, and Nature's Wrath campaigns</p>",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "compatibility": {
     "minimum": "12",
     "verified": "13"
@@ -80,5 +80,5 @@
   "flags": {},
   "url": "https://github.com/pwolthausen/primordial-strings-foundryvtt",
   "manifest": "https://raw.githubusercontent.com/pwolthausen/primordial-strings-foundryvtt/refs/heads/main/module.json",
-  "download": "https://gitlab.com/api/v4/projects/77159274/packages/generic/primal_strings/0.5.0/module.zip"
+  "download": "https://gitlab.com/api/v4/projects/77159274/packages/generic/primal_strings/0.5.1/module.zip"
 }
